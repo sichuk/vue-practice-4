@@ -9,7 +9,7 @@
     </div>
 
     <div :class="['form-control', {invalid:pError}]">
-      <label for="password">Email</label>
+      <label for="password">Пароль</label>
       <input type="password" id="password" v-model="password" @blur="pBlur">
       <small v-if="pError"> {{ pError }}</small>
     </div>
